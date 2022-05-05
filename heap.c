@@ -44,5 +44,5 @@ Heap* createHeap(){
    aux->heapArray->priority = 0;
    aux->capac = 3;
    aux->size = 0;
-   return;
+   return aux;
 }

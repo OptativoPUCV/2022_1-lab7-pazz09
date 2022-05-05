@@ -18,3 +18,8 @@ heap.c:40:7: note: declared here
 cc1.exe: all warnings being treated as errors
 Compilation failed
 9591ddd
+Thu May  5 11:33:02 HSP 2022: 
+ heap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+28c0558
