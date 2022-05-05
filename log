@@ -4,3 +4,17 @@ Thu May  5 11:31:37 HSP 2022:
  tests:  0|4
 total_score: 0/70
 8d2b152
+Thu May  5 11:32:22 HSP 2022: 
+ heap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:0:
+heap.c: In function 'createHeap':
+heap.c:47:4: error: 'return' with no value, in function returning non-void [-Werror]
+    return;
+    ^~~~~~
+heap.c:40:7: note: declared here
+ Heap* createHeap(){
+       ^~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+9591ddd
